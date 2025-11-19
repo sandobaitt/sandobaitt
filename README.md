@@ -20,11 +20,11 @@ Estudio Ingeniería en Sistemas en la UTN-FRRe y me gusta moverme entre código,
 
 ### 🌐 Redes y contacto
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tu-perfil)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/TU_LINK_A_LINKEDIN)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/lautisando_)
-[![Mail](https://img.shields.io/badge/Email-181717?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tu-correo@ejemplo.com)
+[![Mail](https://img.shields.io/badge/Email-181717?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lautaroemanuelsandoval@gmail.com)
 
 ---
 
-Siempre estoy metido en algo que me llame el interes. Cualquier cosa me avisan...
+Siempre estoy metido en algo que llame mi interes. Cualquier cosa me avisan...
 
