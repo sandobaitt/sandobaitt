@@ -1,6 +1,6 @@
 # 👋Hola, Soy Lautaro Sandoval
 
-Estudio Ingeniería en Sistemas en la UTN-FRRe y mantengo un enfoque tranquilo pero curioso: si algo me obliga a pensar un poco más, probablemente me interese.
+Estudio Ingeniería en Sistemas en la UTN-FRRe. Soy tranqui pero bastante curioso: si algo me obliga a pensar un poco de más, probablemente me interese.
 
 ### Tecnologías y herramientas
 
