@@ -1,4 +1,4 @@
-# 👋Hola, Soy Lautaro Sandoval
+# Hola, Soy Lautaro Sandoval
 
 Estudio Ingeniería en Sistemas en la UTN-FRRe. Soy tranqui pero bastante curioso: si algo me obliga a pensar un poco de más, probablemente me interese.
 
