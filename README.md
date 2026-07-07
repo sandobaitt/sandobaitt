@@ -1,6 +1,6 @@
 # Hola, soy Lautaro Sandoval
 
-Estudiante de **Ingeniería en Sistemas de Información** en la **UTN-FRRe**.
+Estudiante avanzado de **Ingeniería en Sistemas de Información** en la **UTN-FRRe**.
 ---
 
 ### 🛠️ Tecnologías y Herramientas
