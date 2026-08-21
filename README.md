@@ -12,20 +12,15 @@ Estudiante avanzado de **Ingeniería en Sistemas de Información** en la **UTN-F
 #### Lenguajes de Programación
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-
 ![Assembler](https://img.shields.io/badge/Assembler-00599C?style=for-the-badge&logo=assembly&logoColor=white)
-
 ![Pascal](https://img.shields.io/badge/Pascal-0095D5?style=for-the-badge&logo=pascal&logoColor=white)
 
 
 #### Herramientas y Entorno
 
 ![Git](https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white)
-
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 
@@ -36,7 +31,5 @@ Estudiante avanzado de **Ingeniería en Sistemas de Información** en la **UTN-F
 
 
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lautaroemanuelsandoval@gmail.com)
-
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/lautisando_)
-
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lautarosandoval ) 
