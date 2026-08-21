@@ -1,8 +1,6 @@
 <div align="center">
-  <!-- Banner dinámico -->
   <img src="https://capsule-render.vercel.app/api?type=waving&color=00599C&height=200&section=header&text=Hola,%20soy%20Lautaro!&fontSize=70&fontColor=ffffff&animation=fadeIn" alt="Banner" width="100%" />
 
-  <!-- Texto dinámico (Typing Effect) -->
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=0095D5&center=true&vCenter=true&width=500&lines=Estudiante+de+Ingeniería+en+Sistemas;Futuro+Ingeniero+|+UTN-FRRe;Apasionado+por+la+tecnología" alt="Typing SVG" />
   </a>
@@ -11,9 +9,8 @@
 ---
 
 <div align="center">
-  <!-- Trofeos de GitHub -->
   <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=lautarosandoval&theme=nord&no-frame=true&no-bg=true&margin-w=15" alt="Trofeos de Lautaro" />
+    <img src="https://github-profile-trophy.vercel.app/?username=sandobaitt&theme=nord&no-frame=true&no-bg=true&margin-w=15" alt="Trofeos de Lautaro" />
   </a>
 </div>
 
@@ -39,20 +36,18 @@
 ### 📊 Mis Estadísticas
 
 <div align="center">
-  <!-- Tarjetas de Stats (se auto-actualizan) -->
-  <img src="https://github-readme-stats.vercel.app/api?username=lautarosandoval&show_icons=true&theme=transparent&hide_border=true&title_color=00599C&icon_color=0095D5" alt="Estadísticas de GitHub" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lautarosandoval&layout=compact&theme=transparent&hide_border=true&title_color=00599C" alt="Lenguajes más usados" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api?username=sandobaitt&show_icons=true&theme=transparent&hide_border=true&title_color=00599C&icon_color=0095D5" alt="Estadísticas de GitHub" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sandobaitt&layout=compact&theme=transparent&hide_border=true&title_color=00599C" alt="Lenguajes más usados" height="165" />
 </div>
 
 ---
 
 ### 🐍 Mi Actividad
-<!-- Animación del historial de contribuciones -->
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lautarosandoval/lautarosandoval/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lautarosandoval/lautarosandoval/output/github-contribution-grid-snake.svg">
-    <img alt="Animación Snake" src="https://raw.githubusercontent.com/lautarosandoval/lautarosandoval/output/github-contribution-grid-snake.svg" width="800">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sandobaitt/sandobaitt/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sandobaitt/sandobaitt/output/github-contribution-grid-snake.svg">
+    <img alt="Animación Snake" src="https://raw.githubusercontent.com/sandobaitt/sandobaitt/output/github-contribution-grid-snake.svg" width="800">
   </picture>
 </div>
 
