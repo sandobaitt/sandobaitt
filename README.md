@@ -1,27 +1,67 @@
-# Hola, soy Lautaro Sandoval
+<div align="center">
+  <!-- Banner dinámico -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=00599C&height=200&section=header&text=Hola,%20soy%20Lautaro!&fontSize=70&fontColor=ffffff&animation=fadeIn" alt="Banner" width="100%" />
 
-Estudiante avanzado de **Ingeniería en Sistemas de Información** en la **UTN-FRRe**.
+  <!-- Texto dinámico (Typing Effect) -->
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=0095D5&center=true&vCenter=true&width=500&lines=Estudiante+de+Ingeniería+en+Sistemas;Futuro+Ingeniero+|+UTN-FRRe;Apasionado+por+la+tecnología" alt="Typing SVG" />
+  </a>
+</div>
+
 ---
+
+<div align="center">
+  <!-- Trofeos de GitHub -->
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=lautarosandoval&theme=nord&no-frame=true&no-bg=true&margin-w=15" alt="Trofeos de Lautaro" />
+  </a>
+</div>
+
+<br>
 
 ### 🛠️ Tecnologías y Herramientas
 
-#### Lenguajes de Programación
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Assembler](https://img.shields.io/badge/Assembler-00599C?style=for-the-badge&logo=assembly&logoColor=white)
-![Pascal](https://img.shields.io/badge/Pascal-0095D5?style=for-the-badge&logo=pascal&logoColor=white)
+<div align="center">
+  <h4>Lenguajes de Programación</h4>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
+  <img src="https://img.shields.io/badge/Assembler-00599C?style=for-the-badge&logo=assembly&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pascal-0095D5?style=for-the-badge&logo=pascal&logoColor=white" />
+  
+  <h4>Herramientas y Entorno</h4>
+  <img src="https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+</div>
 
-#### Herramientas y Entorno
-![Git](https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+<br>
+
+### 📊 Mis Estadísticas
+
+<div align="center">
+  <!-- Tarjetas de Stats (se auto-actualizan) -->
+  <img src="https://github-readme-stats.vercel.app/api?username=lautarosandoval&show_icons=true&theme=transparent&hide_border=true&title_color=00599C&icon_color=0095D5" alt="Estadísticas de GitHub" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lautarosandoval&layout=compact&theme=transparent&hide_border=true&title_color=00599C" alt="Lenguajes más usados" height="165" />
+</div>
+
+---
+
+### 🐍 Mi Actividad
+<!-- Animación del historial de contribuciones -->
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lautarosandoval/lautarosandoval/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/lautarosandoval/lautarosandoval/output/github-contribution-grid-snake.svg">
+    <img alt="Animación Snake" src="https://raw.githubusercontent.com/lautarosandoval/lautarosandoval/output/github-contribution-grid-snake.svg" width="800">
+  </picture>
+</div>
 
 ---
 
 ### 📫 Contacto
 
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lautaroemanuelsandoval@gmail.com)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/lautisando_)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lautarosandoval )
-
-
+<div align="center">
+  <a href="mailto:lautaroemanuelsandoval@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
+  <a href="https://www.instagram.com/lautisando_"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
+  <a href="https://www.linkedin.com/in/lautarosandoval"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+</div>
