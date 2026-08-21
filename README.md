@@ -7,6 +7,7 @@ Estudiante avanzado de **Ingeniería en Sistemas de Información** en la **UTN-F
 
 #### Lenguajes de Programación
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![Assembler](https://img.shields.io/badge/Assembler-00599C?style=for-the-badge&logo=assembly&logoColor=white)
 ![Pascal](https://img.shields.io/badge/Pascal-0095D5?style=for-the-badge&logo=pascal&logoColor=white)
 
