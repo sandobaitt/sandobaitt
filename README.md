@@ -8,14 +8,14 @@
 
 ---
 
-### 👨‍💻 Sobre mí & Estado Actual
+### 👨‍💻 Sobre mí
 
-Estudio **Ingeniería en Sistemas de Información** (UTN-FRRe). 
+Estudiante avanzado de **Ingeniería en Sistemas de Información** en la **UTN-FRRe**. 
 
-**Actualmente:**
-- ⚔️ Compito en el **TAP programando en C++**.
-- 🚩 Resuelvo retos de **Web App Security** en picoCTF.
-- 🗄️ Analizo la arquitectura interna de **MySQL InnoDB**.
+**Voy por...**
+- 🛡️ Ciberseguridad
+- ⚔️ Programacion Competitiva
+- 💻 Desarrollo Web
 
 ---
 
@@ -24,14 +24,13 @@ Estudio **Ingeniería en Sistemas de Información** (UTN-FRRe).
 <div align="center">
   <!-- Especialidades -->
   <img src="https://img.shields.io/badge/Ciberseguridad-000000?style=for-the-badge&logo=security&logoColor=white" alt="Ciberseguridad" />
-  <img src="https://img.shields.io/badge/Web_App_Security-FF0000?style=for-the-badge&logo=owasp&logoColor=white" alt="Web App Security" />
-  <img src="https://img.shields.io/badge/CTF_Player-333333?style=for-the-badge&logo=hackthebox&logoColor=white" alt="CTF Player" />
   <img src="https://img.shields.io/badge/Programaci%C3%B3n_Competitiva-0095D5?style=for-the-badge&logo=codeforces&logoColor=white" alt="Programación Competitiva" />
+  <img src="https://img.shields.io/badge/Desarrollo_Web-000000?style=for-the-badge&logo=web&logoColor=white" alt="Desarrollo Web" />
   <br><br>
   
   <!-- Lenguajes & Herramientas en Skillicons -->
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,cpp,c,haskell,mysql,linux,bash,figma,git,github&perline=10" alt="My Skills" />
+    <img src="https://skillicons.dev/icons?i=python,cpp,c,haskell,mysql,linux,bash,git,github&perline=10" alt="My Skills" />
   </a>
 </div>
 
