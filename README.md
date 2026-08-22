@@ -10,7 +10,7 @@
 
 ### 👨‍💻 Sobre mí & Estado Actual
 
-Estudio **Ingeniería en Sistemas de Información** (UTN-FRRe). Resuelvo problemas, aplico seguridad informática y desarrollo soluciones eficientes.
+Estudio **Ingeniería en Sistemas de Información** (UTN-FRRe). 
 
 **Actualmente:**
 - ⚔️ Compito en el **TAP programando en C++**.
