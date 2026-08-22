@@ -71,11 +71,12 @@ Estudiante avanzado de **Ingeniería en Sistemas de Información** en la **UTN-F
     <img src="https://transfergit.com/api/svg/sandobaitt/readme" alt="TransferGit Card">
   </a>
   <br><br>
-  <!-- WakaTime Stats (Requiere que en WakaTime esté pública la cuenta y compartidas las métricas) -->
-  <a href="https://wakatime.com/@sandobaitt">
-    <img src="https://github-readme-stats.vercel.app/api/wakatime?username=sandobaitt&layout=compact&theme=tokyonight&hide_border=true&title_color=0095D5" alt="WakaTime Stats" width="48%" />
-  </a>
-  <img src="https://github-readme-stats.vercel.app/api?username=sandobaitt&show_icons=true&theme=tokyonight&hide_border=true&title_color=0095D5" alt="Estadísticas de GitHub" width="48%" />
+  <!-- GitHub Stats Extended -->
+  <img src="https://github-stats-extended.vercel.app/api/?username=sandobaitt&theme=tokyonight&hide_border=true&show_icons=true" alt="Estadísticas de GitHub" width="48%" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=sandobaitt&theme=tokyonight&hide_border=true&layout=compact" alt="Lenguajes Top" width="48%" />
+  <br><br>
+  <!-- GitHub Streak -->
+  <img src="https://streak-stats.demolab.com?user=sandobaitt&theme=tokyonight&locale=es&hide_border=true" alt="GitHub Streak" width="70%" />
 </div>
 
 ---
@@ -102,5 +103,5 @@ Estudiante avanzado de **Ingeniería en Sistemas de Información** en la **UTN-F
 
 <br>
 <div align="center">
-  <img src="https://profile-counter.glitch.me/sandobaitt/count.svg" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=sandobaitt&color=0095D5&style=flat-square&label=VISITAS" alt="Profile Views" />
 </div>
