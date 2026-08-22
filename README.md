@@ -1,8 +1,8 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Hola,%20soy%20Lautaro,%20pero%20me%20dicen%20Sando!%20%F0%9F%91%8B&fontSize=45&animation=fadeIn" alt="Header Banner"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Me%20dicen%20Sando!%20%F0%9F%91%8B&fontSize=45&animation=fadeIn" alt="Header Banner"/>
 
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&pause=1000&color=0095D5&center=true&vCenter=true&width=700&lines=Estudiante+de+Ingenier%C3%ADa+en+Sistemas;Apasionado+por+la+Ciberseguridad;Jugador+de+CTF;Programaci%C3%B3n+Competitiva" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&pause=1000&color=0095D5&center=true&vCenter=true&width=700&lines=ngenier%C3%ADa+en+Sistemas;Ciberseguridad;CTF;Programaci%C3%B3n+Competitiva" alt="Typing SVG" />
   </a>
 </div>
 
@@ -10,12 +10,12 @@
 
 ### 👨‍💻 Sobre mí & Estado Actual
 
-Soy un estudiante avanzado de **Ingeniería en Sistemas de Información** en la **UTN-FRRe**. Me apasiona resolver problemas, la seguridad informática y crear soluciones eficientes.
+Estudio **Ingeniería en Sistemas de Información** (UTN-FRRe). Resuelvo problemas, aplico seguridad informática y desarrollo soluciones eficientes.
 
-**En qué estoy trabajando ahora mismo:**
-- ⚔️ Preparándome intensamente para el **TAP en C++**.
-- 🚩 Resolviendo retos en **picoCTF** (enfocado en Web App Security).
-- 🗄️ Profundizando y estudiando la arquitectura de **MySQL InnoDB**.
+**Actualmente:**
+- ⚔️ Compito en el **TAP programando en C++**.
+- 🚩 Resuelvo retos de **Web App Security** en picoCTF.
+- 🗄️ Analizo la arquitectura interna de **MySQL InnoDB**.
 
 ---
 
@@ -33,13 +33,6 @@ Soy un estudiante avanzado de **Ingeniería en Sistemas de Información** en la 
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=python,cpp,c,haskell,mysql,linux,bash,figma,git,github&perline=10" alt="My Skills" />
   </a>
-  <br><br>
-  <!-- Tecnologías adicionales y Badges Personalizados -->
-  <img src="https://img.shields.io/badge/Pharo-00A9E0?style=flat-square&logo=pharo&logoColor=white" alt="Pharo" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white" alt="SQL" />
-  <img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square&logo=burpsuite&logoColor=white" alt="Burp Suite" />
-  <img src="https://img.shields.io/badge/Pop!_OS-48B9C7?style=flat-square&logo=pop!_os&logoColor=white" alt="Pop!_OS" />
-  <img src="https://img.shields.io/badge/Assembler-00599C?style=flat-square&logo=assembly&logoColor=white" alt="Assembler" />
 </div>
 
 ---
@@ -49,16 +42,22 @@ Soy un estudiante avanzado de **Ingeniería en Sistemas de Información** en la 
 <table align="center">
   <tr>
     <td align="center" width="50%">
-      <h4><a href="https://github.com/sandobaitt/sistema-dinamico-repulsor">🌌 Sistema Dinámico Repulsor</a></h4>
-      <p>Simulación y modelado de un sistema dinámico repulsor interactivo.</p>
-      <!-- Reemplaza la URL de abajo con el link de tu imagen o GIF -->
-      <img src="https://via.placeholder.com/400x200.png?text=Captura/GIF+del+Proyecto" alt="Sistema Dinámico Repulsor" width="100%"/>
+      <h4><a href="https://github.com/sandobaitt/ccr-landing">🕊️ CCR Landing Page</a></h4>
+      <p>Landing page interactiva para la comunidad juvenil CCR.</p>
     </td>
     <td align="center" width="50%">
-      <h4><a href="https://github.com/sandobaitt/numeros-amigos">🔢 Algoritmos de Números Amigos</a></h4>
-      <p>Implementación eficiente de algoritmos para encontrar números amigos.</p>
-      <!-- Reemplaza la URL de abajo con el link de tu imagen o GIF -->
-      <img src="https://via.placeholder.com/400x200.png?text=Captura/GIF+del+Proyecto" alt="Números Amigos" width="100%"/>
+      <h4><a href="https://github.com/sandobaitt/TPI-Paradigmas-">🏹 Sistema Dinámico Repulsor</a></h4>
+      <p>Juego de tablero dinámico en Pharo y Python.</p>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <h4><a href="https://github.com/sandobaitt/Assembler">💻 Assembler 8086</a></h4>
+      <p>Guía, ejercicios y finales resueltos en Assembler 8086.</p>
+    </td>
+    <td align="center" width="50%">
+      <h4><a href="https://github.com/sandobaitt/TpDiseno">🏋️ Diseño de Gimnasio</a></h4>
+      <p>Diseño de un escenario para un gimnasio.</p>
     </td>
   </tr>
 </table>
