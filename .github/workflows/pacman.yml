@@ -1,4 +1,4 @@
-name: Generate Snake Animation
+name: Generate Pac-Man Animation
 
 on:
   schedule:
@@ -11,7 +11,7 @@ on:
 
 jobs:
   build:
-    name: Generate Snake
+    name: Generate Pac-Man
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -19,13 +19,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Generate the snake files
-        uses: Platane/snk@v3
+      - name: Generate the pacman files
+        uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+          games: 'pacman'
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0

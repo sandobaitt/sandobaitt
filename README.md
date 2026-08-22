@@ -1,9 +1,11 @@
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Me%20dicen%20Sando!" alt="Header Banner"/>
 
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&pause=1000&color=0095D5&center=true&vCenter=true&width=700&lines=Ingenier%C3%ADa+en+Sistemas;Ciberseguridad;CTF;Programaci%C3%B3n+Competitiva" alt="Typing SVG" />
-  </a>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/profile.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/profile.svg">
+    <img alt="Terminal Profile" src="assets/profile.svg" width="100%">
+  </picture>
 </div>
 
 ---
@@ -81,13 +83,13 @@ Estudiante avanzado de **Ingeniería en Sistemas de Información** en la **UTN-F
 
 ---
 
-### 🐍 Contribuciones
+### 🕹️ Contribuciones
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sandobaitt/sandobaitt/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sandobaitt/sandobaitt/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/sandobaitt/sandobaitt/output/github-contribution-grid-snake.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sandobaitt/sandobaitt/output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sandobaitt/sandobaitt/output/pacman-contribution-graph.svg">
+    <img alt="pacman contribution graph animation" src="https://raw.githubusercontent.com/sandobaitt/sandobaitt/output/pacman-contribution-graph.svg">
   </picture>
 </div>
 
