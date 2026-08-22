@@ -71,16 +71,14 @@
   <text x="365.6" y="94" class="header">sandobaitt@github</text>
   <line x1="365.6" y1="104" x2="685.2" y2="104" class="rule" />
   
-      <text x="365.6" y="134" class="fieldline typewriter" style="animation-delay:0.50s"><tspan class="label">Role:</tspan> <tspan class="value">Estudiante de Ing. en Sistemas</tspan></text>
-      <text x="365.6" y="156" class="fieldline typewriter" style="animation-delay:0.56s"><tspan class="label">Focus:</tspan> <tspan class="value">Ciberseguridad &amp; Prog. Competitiva</tspan></text>
-      <text x="365.6" y="178" class="fieldline typewriter" style="animation-delay:0.62s"><tspan class="label">Stack.Frontend:</tspan> <tspan class="value">html, css, javascript</tspan></text>
-      <text x="365.6" y="200" class="fieldline typewriter" style="animation-delay:0.68s"><tspan class="label">Stack.Backend:</tspan> <tspan class="value">python, c, cpp, haskell, mysql</tspan></text>
-      <text x="365.6" y="222" class="fieldline typewriter" style="animation-delay:0.74s"><tspan class="label">Environment:</tspan> <tspan class="value">linux, git, bash</tspan></text>
-      <text x="365.6" y="244" class="fieldline typewriter" style="animation-delay:0.80s"><tspan class="label">Interests:</tspan> <tspan class="value">Ciberseguridad, Desarrollo Web</tspan></text>
-      <text x="365.6" y="266" class="fieldline typewriter" style="animation-delay:0.86s"><tspan class="label">Contact.Email:</tspan> <tspan class="value">lautaroemanuelsandoval@gmail.com</tspan></text>
-      <text x="365.6" y="288" class="fieldline typewriter" style="animation-delay:0.92s"><tspan class="label">Contact.LinkedIn:</tspan> <tspan class="value">in/lautarosandoval</tspan></text>
-      <text x="365.6" y="310" class="fieldline typewriter" style="animation-delay:0.98s"><tspan class="label">Contact.Instagram:</tspan> <tspan class="value">@lautisando_</tspan></text>
-
+      <text x="365.6" y="134" class="fieldline typewriter" style="animation-delay:0.50s"><tspan class="label">Role:</tspan> <tspan class="value">estudiante avanzado ing. en Sistemas</tspan></text>
+      <text x="365.6" y="156" class="fieldline typewriter" style="animation-delay:0.56s"><tspan class="label">Focus:</tspan> <tspan class="value">ciberseguridad, desarrollo web &amp; progrm. competitiva</tspan></text>
+      <text x="365.6" y="178" class="fieldline typewriter" style="animation-delay:0.62s"><tspan class="label">Environment:</tspan> <tspan class="value">linux, git, bash, github</tspan></text>
+      <text x="365.6" y="200" class="fieldline typewriter" style="animation-delay:0.68s"><tspan class="label">GitHub.Repos:</tspan> <tspan class="value">18+</tspan></text>
+      <text x="365.6" y="222" class="fieldline typewriter" style="animation-delay:0.74s"><tspan class="label">GitHub.Stars:</tspan> <tspan class="value">96+</tspan></text>
+      <text x="365.6" y="244" class="fieldline typewriter" style="animation-delay:0.80s"><tspan class="label">GitHub.Followers:</tspan> <tspan class="value">8+</tspan></text>
+      <text x="365.6" y="266" class="fieldline typewriter" style="animation-delay:0.86s"><tspan class="label">GitHub.Languages:</tspan> <tspan class="value">Python, JavaScript, HTML, CSS</tspan></text>
+  
   
       <rect x="365.6" y="478.0" width="20" height="20" rx="3" fill="#0b1120" stroke="#2a3350" stroke-width="1" class="swatch" style="animation-delay:1.40s" />
       <rect x="393.6" y="478.0" width="20" height="20" rx="3" fill="#e8384f" stroke="#2a3350" stroke-width="1" class="swatch" style="animation-delay:1.45s" />
@@ -94,8 +92,8 @@
   <text x="34" y="548" class="prompt">┌──(sandobaitt@github-[~]</text>
   <text x="34" y="572" class="prompt">└─$ </text>
   
-      <text x="79.0" y="572" class="promptcmd" clip-path="url(#promptClip0)" textLength="190.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Estudiante de Sistemas</text>
-      <text x="79.0" y="572" class="promptcmd" clip-path="url(#promptClip1)" textLength="130.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Desarrollo Web</text>
-      <text x="79.0" y="572" class="promptcmd" clip-path="url(#promptClip2)" textLength="130.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Ciberseguridad</text>
+      <text x="79.0" y="572" class="promptcmd" clip-path="url(#promptClip0)" textLength="130.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Ing. en Sistemas</text>
+      <text x="79.0" y="572" class="promptcmd" clip-path="url(#promptClip1)" textLength="115.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Desarrollo Web</text>
+      <text x="79.0" y="572" class="promptcmd" clip-path="url(#promptClip2)" textLength="115.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Ciberseguridad</text>
   <rect x="79.0" y="558.0" width="8" height="16" class="promptcursor" />
 </svg>

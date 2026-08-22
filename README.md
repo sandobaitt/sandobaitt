@@ -1,23 +1,8 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Me%20dicen%20Sando!" alt="Header Banner"/>
-
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/profile.svg">
     <source media="(prefers-color-scheme: light)" srcset="assets/profile.svg">
     <img alt="Terminal Profile" src="assets/profile.svg" width="100%">
   </picture>
-</div>
-
----
-
-### 👨‍💻 Sobre mí
-
-Estudiante avanzado de **Ingeniería en Sistemas de Información** en la **UTN-FRRe**. 
-
-**Voy por...**
-- 🛡️ Ciberseguridad
-- ⚔️ Programacion Competitiva
-- 💻 Desarrollo Web
 
 ---
 
@@ -34,6 +19,24 @@ Estudiante avanzado de **Ingeniería en Sistemas de Información** en la **UTN-F
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=python,cpp,c,haskell,mysql,linux,bash,git,github&perline=10" alt="My Skills" />
   </a>
+</div>
+
+---
+
+### 📊 Métricas y Estadísticas
+
+<div align="center">
+  <!-- TransferGit Card -->
+  <a href="https://transfergit.com/sandobaitt">
+    <img src="https://transfergit.com/api/svg/sandobaitt/readme" alt="TransferGit Card">
+  </a>
+  <br><br>
+  <!-- GitHub Stats Extended -->
+  <img src="https://github-stats-extended.vercel.app/api/?username=sandobaitt&theme=tokyonight&hide_border=true&show_icons=true" alt="Estadísticas de GitHub" width="48%" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=sandobaitt&theme=tokyonight&hide_border=true&layout=compact" alt="Lenguajes Top" width="48%" />
+  <br><br>
+  <!-- GitHub Streak -->
+  <img src="https://streak-stats.demolab.com?user=sandobaitt&theme=tokyonight&locale=es&hide_border=true" alt="GitHub Streak" width="70%" />
 </div>
 
 ---
@@ -63,23 +66,7 @@ Estudiante avanzado de **Ingeniería en Sistemas de Información** en la **UTN-F
   </tr>
 </table>
 
----
 
-### 📊 Métricas y Estadísticas
-
-<div align="center">
-  <!-- TransferGit Card -->
-  <a href="https://transfergit.com/sandobaitt">
-    <img src="https://transfergit.com/api/svg/sandobaitt/readme" alt="TransferGit Card">
-  </a>
-  <br><br>
-  <!-- GitHub Stats Extended -->
-  <img src="https://github-stats-extended.vercel.app/api/?username=sandobaitt&theme=tokyonight&hide_border=true&show_icons=true" alt="Estadísticas de GitHub" width="48%" />
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=sandobaitt&theme=tokyonight&hide_border=true&layout=compact" alt="Lenguajes Top" width="48%" />
-  <br><br>
-  <!-- GitHub Streak -->
-  <img src="https://streak-stats.demolab.com?user=sandobaitt&theme=tokyonight&locale=es&hide_border=true" alt="GitHub Streak" width="70%" />
-</div>
 
 ---
 
