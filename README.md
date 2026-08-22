@@ -67,6 +67,11 @@ Estudio **Ingeniería en Sistemas de Información** (UTN-FRRe).
 ### 📊 Métricas y Estadísticas
 
 <div align="center">
+  <!-- TransferGit Card -->
+  <a href="https://transfergit.com/sandobaitt">
+    <img src="https://transfergit.com/api/svg/sandobaitt/readme" alt="TransferGit Card">
+  </a>
+  <br><br>
   <!-- WakaTime Stats (Requiere que en WakaTime esté pública la cuenta y compartidas las métricas) -->
   <a href="https://wakatime.com/@sandobaitt">
     <img src="https://github-readme-stats.vercel.app/api/wakatime?username=sandobaitt&layout=compact&theme=tokyonight&hide_border=true&title_color=0095D5" alt="WakaTime Stats" width="48%" />
@@ -80,9 +85,9 @@ Estudio **Ingeniería en Sistemas de Información** (UTN-FRRe).
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sandobaitt/sandobaitt/output/dist/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sandobaitt/sandobaitt/output/dist/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/sandobaitt/sandobaitt/output/dist/github-contribution-grid-snake.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sandobaitt/sandobaitt/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sandobaitt/sandobaitt/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/sandobaitt/sandobaitt/output/github-contribution-grid-snake.svg">
   </picture>
 </div>
 
