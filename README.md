@@ -1,96 +1,114 @@
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/profile.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/profile.svg">
-    <img alt="Terminal Profile" src="assets/profile.svg" width="100%">
-  </picture>
-
----
-
-### 🛠️ Stack Tecnológico
-
 <div align="center">
-  <!-- Especialidades -->
-  <img src="https://img.shields.io/badge/Ciberseguridad-000000?style=for-the-badge&logo=security&logoColor=white" alt="Ciberseguridad" />
-  <img src="https://img.shields.io/badge/Programaci%C3%B3n_Competitiva-0095D5?style=for-the-badge&logo=codeforces&logoColor=white" alt="Programación Competitiva" />
-  <img src="https://img.shields.io/badge/Desarrollo_Web-000000?style=for-the-badge&logo=web&logoColor=white" alt="Desarrollo Web" />
-  <br><br>
-  
-  <!-- Lenguajes & Herramientas en Skillicons -->
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,cpp,c,haskell,mysql,linux,bash,git,github&perline=10" alt="My Skills" />
-  </a>
+  <img src="assets/hero.svg" alt="Lautaro Sandoval (@sandobaitt): estudiante avanzado de Ingeniería en Sistemas de Información en la UTN FRRe. Sitios web, ciberseguridad y programación competitiva." width="100%">
 </div>
 
----
+<p align="center">
+  <a href="https://sando-portafolio.vercel.app"><img src="https://img.shields.io/badge/Portafolio-ffd83d?style=for-the-badge&logo=vercel&logoColor=black" alt="Portafolio" /></a>
+  <a href="https://www.linkedin.com/in/lautarosandoval"><img src="https://img.shields.io/badge/LinkedIn-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:lautaroemanuelsandoval@gmail.com"><img src="https://img.shields.io/badge/Gmail-d14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
+  <a href="https://www.instagram.com/lautisando_"><img src="https://img.shields.io/badge/Instagram-e4405f?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
+</p>
 
-### 📊 Métricas y Estadísticas
+<p align="center">
+  Hago sitios web para instituciones de Resistencia.<br>
+  En la facultad programo desde objetos en Pharo hasta assembler 8086; fuera de ella, resuelvo CTFs.
+</p>
 
-<div align="center">
-  <!-- TransferGit Card -->
-  <a href="https://transfergit.com/sandobaitt">
-    <img src="https://transfergit.com/api/svg/sandobaitt/readme" alt="TransferGit Card">
-  </a>
-  <br><br>
-  <!-- GitHub Stats Extended -->
-  <img src="https://github-stats-extended.vercel.app/api/?username=sandobaitt&theme=tokyonight&hide_border=true&show_icons=true" alt="Estadísticas de GitHub" width="48%" />
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=sandobaitt&theme=tokyonight&hide_border=true&layout=compact" alt="Lenguajes Top" width="48%" />
-  <br><br>
-  <!-- GitHub Streak -->
-  <img src="https://streak-stats.demolab.com?user=sandobaitt&theme=tokyonight&locale=es&hide_border=true" alt="GitHub Streak" width="70%" />
-</div>
+<img src="assets/divider.svg" alt="" width="100%">
 
----
+<h2 align="center">Sitios web</h2>
 
-### 🚀 Proyectos Destacados
-
-<table align="center">
+<table>
   <tr>
-    <td align="center" width="50%">
-      <h4><a href="https://github.com/sandobaitt/ccr-landing">🕊️ CCR Landing Page</a></h4>
-      <p>Landing page interactiva para la comunidad juvenil CCR.</p>
+    <td width="33%" valign="top">
+      <a href="https://ikigai-alpha-eight.vercel.app"><img src="assets/ikigai.webp" alt="Captura del sitio del Instituto de Clínicas IKIGAI" width="100%"></a>
+      <h4>Instituto de Clínicas IKIGAI</h4>
+      <p>Sitio institucional con un directorio de 14 profesionales en 5 áreas: filtros, buscador y botón de WhatsApp por especialista.</p>
+      <p><sub><code>HTML</code> <code>CSS</code> <code>JavaScript</code> <code>Schema.org</code></sub></p>
+      <p><a href="https://ikigai-alpha-eight.vercel.app">Ver sitio</a> · <a href="https://github.com/sandobaitt/IKIGAI">Código</a></p>
     </td>
-    <td align="center" width="50%">
-      <h4><a href="https://github.com/sandobaitt/TPI-Paradigmas-">🏹 Sistema Dinámico Repulsor</a></h4>
-      <p>Juego de tablero dinámico en Pharo y Python.</p>
+    <td width="33%" valign="top">
+      <a href="https://ccr-landing.vercel.app"><img src="assets/ccr.webp" alt="Captura del sitio de Crecer con Cristo Redentor" width="100%"></a>
+      <h4>Crecer con Cristo Redentor</h4>
+      <p>Landing de la comunidad juvenil de la Parroquia Asunción. Los voluntarios cargan fechas y novedades desde un CMS, sin tocar código.</p>
+      <p><sub><code>Next.js</code> <code>TypeScript</code> <code>Tailwind</code> <code>Sanity</code> <code>Framer Motion</code></sub></p>
+      <p><a href="https://ccr-landing.vercel.app">Ver sitio</a> · <a href="https://github.com/sandobaitt/ccr-landing">Código</a></p>
     </td>
-  </tr>
-  <tr>
-    <td align="center" width="50%">
-      <h4><a href="https://github.com/sandobaitt/Assembler">💻 Assembler 8086</a></h4>
-      <p>Guía, ejercicios y finales resueltos en Assembler 8086.</p>
-    </td>
-    <td align="center" width="50%">
-      <h4><a href="https://github.com/sandobaitt/TpDiseno">🏋️ Diseño de Gimnasio</a></h4>
-      <p>Diseño de un escenario para un gimnasio.</p>
+    <td width="33%" valign="top">
+      <a href="https://tp-diseno.vercel.app"><img src="assets/squatgym.webp" alt="Captura del prototipo de SquatGym" width="100%"></a>
+      <h4>SquatGym <sup>TP integrador</sup></h4>
+      <p>Prototipo navegable de Gestión de Alumnos y Gestión de Personal (24 casos de uso), con tests de las reglas de negocio.</p>
+      <p><sub><code>React</code> <code>TypeScript</code> <code>Vite</code> <code>Tailwind</code> <code>Vitest</code></sub></p>
+      <p><a href="https://tp-diseno.vercel.app">Ver demo</a> · <a href="https://github.com/sandobaitt/TpDiseno">Código</a></p>
     </td>
   </tr>
 </table>
 
+<h2 align="center">Proyectos de la facultad</h2>
 
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <h4><a href="https://github.com/sandobaitt/TPI-Paradigmas-">Sistema Dinámico Repulsor</a></h4>
+      <p>Juego de tablero para dos donde las flechas rotan al pasar. TPI de Paradigmas de Programación, en equipo de seis: versión en Pharo con interfaz en Spec y prototipo en Python.</p>
+      <p><sub><code>Pharo</code> <code>Python</code></sub></p>
+    </td>
+    <td width="33%" valign="top">
+      <h4><a href="https://github.com/sandobaitt/Assembler">Assembler 8086</a></h4>
+      <p>Resumen de fundamentos y 14 finales resueltos (2022–2026) de Arquitectura de Computadoras, junto con Mariano Del Valle y Paula Kozak.</p>
+      <p><sub><code>Assembler</code> <code>emu8086</code></sub></p>
+    </td>
+    <td width="33%" valign="top">
+      <h4><a href="https://github.com/sandobaitt/Ejercicios-Complejidad">Ejercicios de Complejidad</a></h4>
+      <p>Guía y parciales resueltos en Go: recursividad y divide y vencerás.</p>
+      <p><sub><code>Go</code></sub></p>
+    </td>
+  </tr>
+</table>
 
----
+<h2 align="center">Ciberseguridad</h2>
 
-### 🕹️ Contribuciones
+<p align="center">
+  Resuelvo CTFs y participo en eventos del tema.<br><br>
+  <a href="https://www.hackthebox.com"><img src="https://img.shields.io/badge/Hack_The_Box-9fef00?style=for-the-badge&logo=hackthebox&logoColor=black" alt="Hack The Box" /></a>
+  <a href="https://picoctf.org"><img src="https://img.shields.io/badge/picoCTF-4b5d80?style=for-the-badge" alt="picoCTF" /></a>
+  <a href="https://www.softwareseguro.com.ar"><img src="https://img.shields.io/badge/HackLab-Software_Seguro-2b6cb0?style=for-the-badge" alt="HackLab de Software Seguro" /></a>
+</p>
+
+<h2 align="center">Sobre mí</h2>
+
+<p align="center">
+  Me gusta entender qué pasa debajo de lo que uso, por eso disfruto las materias de bajo nivel, y sigo de cerca lo que sale en inteligencia artificial.<br>
+  Inglés técnico (B1–B2): leo documentación y escribo commits e issues en inglés.
+</p>
+
+<h2 align="center">Stack</h2>
+
+<table align="center">
+  <tr>
+    <th align="center">Web</th>
+    <th align="center">Lenguajes</th>
+    <th align="center">Entorno</th>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,vite,nodejs&perline=9" alt="HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind, Vite, Node.js" /></td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=python,c,go&perline=3" alt="Python, C, Go" /></td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=linux,bash,git,github,vscode,vercel,mysql&perline=7" alt="Linux, Bash, Git, GitHub, VS Code, Vercel, MySQL" /></td>
+  </tr>
+</table>
+
+<p align="center"><sub>También: Pharo / Smalltalk · Assembler 8086 · PlantUML</sub></p>
+
+<img src="assets/divider.svg" alt="" width="100%">
+
+<h2 align="center">Actividad</h2>
 
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sandobaitt/sandobaitt/output/pacman-contribution-graph-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sandobaitt/sandobaitt/output/pacman-contribution-graph.svg">
-    <img alt="pacman contribution graph animation" src="https://raw.githubusercontent.com/sandobaitt/sandobaitt/output/pacman-contribution-graph.svg">
+    <img alt="Gráfico de contribuciones de GitHub como juego de Pac-Man" src="https://raw.githubusercontent.com/sandobaitt/sandobaitt/output/pacman-contribution-graph.svg">
   </picture>
-</div>
-
----
-
-### 📫 Contacto
-
-<div align="center">
-  <a href="mailto:lautaroemanuelsandoval@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
-  <a href="https://www.linkedin.com/in/lautarosandoval"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://www.instagram.com/lautisando_"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
-</div>
-
-<br>
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=sandobaitt&color=0095D5&style=flat-square&label=VISITAS" alt="Profile Views" />
+  <br><br>
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=sandobaitt&layout=compact&card_width=420&langs_count=6&custom_title=Lenguajes%20m%C3%A1s%20usados&bg_color=0d1117&border_color=1d2a4d&title_color=ffd83d&text_color=e6edf3&border_radius=12" alt="Lenguajes más usados en mis repositorios" />
 </div>
