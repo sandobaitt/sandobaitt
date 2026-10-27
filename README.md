@@ -166,5 +166,4 @@ Piezas del tablero: Colin M.L. Burnett (CC BY-SA 3.0), vía `python-chess`.
     <img alt="Gráfico de contribuciones de GitHub como juego de Pac-Man" src="https://raw.githubusercontent.com/sandobaitt/sandobaitt/output/pacman-contribution-graph.svg">
   </picture>
   <br><br>
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=sandobaitt&layout=compact&card_width=420&langs_count=6&custom_title=Lenguajes%20m%C3%A1s%20usados&bg_color=f7efe3&border_color=cdb48f&title_color=5a3a28&text_color=2b1d14&border_radius=12" alt="Lenguajes más usados en mis repositorios" />
 </div>
