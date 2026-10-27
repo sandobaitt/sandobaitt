@@ -63,7 +63,7 @@ BOARD_COLORS = {
 
 ENGINE_BIO = (
     "Stockfish es un motor de ajedrez de código abierto y de los más fuertes que existen: "
-    "a pleno nivel le gana a cualquier campeón del mundo. Acá lo limité a ~{elo} Elo, "
+    "esta limitado a ~{elo} Elo, "
     "nivel de club, así que se le puede ganar."
 )
 
