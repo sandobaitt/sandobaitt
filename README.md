@@ -101,6 +101,58 @@
 
 <img src="assets/divider.svg" alt="" width="100%">
 
+<h2 align="center">Ajedrez contra Stockfish</h2>
+
+<p align="center">
+  Jugás con blancas y Stockfish responde con negras. Elegí una jugada de la tabla: abre un issue ya escrito, y al enviarlo el tablero se actualiza solo.
+</p>
+
+<!-- CHESS:START -->
+<p align="center"><img src="https://raw.githubusercontent.com/sandobaitt/sandobaitt/main/chess/board.svg?v=1-0" alt="Tablero de ajedrez, partida 1, jugada 0" width="480"></p>
+
+<p align="center"><b>Partida 1.</b> Es tu turno: mové una pieza blanca.</p>
+
+<p align="center"><sub>Capturaste: — · Stockfish capturó: — · Material: igualado</sub></p>
+
+| Pieza | Destinos: elegí uno y apretá *Submit new issue* |
+| --- | --- |
+| **♘ b1** | [a3](https://github.com/sandobaitt/sandobaitt/issues/new?title=chess%7Cmove%7Cb1a3%7C0&body=Solo+apret%C3%A1+%22Submit+new+issue%22.+No+hace+falta+escribir+nada+m%C3%A1s.) · [c3](https://github.com/sandobaitt/sandobaitt/issues/new?title=chess%7Cmove%7Cb1c3%7C0&body=Solo+apret%C3%A1+%22Submit+new+issue%22.+No+hace+falta+escribir+nada+m%C3%A1s.) |
+| **♘ g1** | [f3](https://github.com/sandobaitt/sandobaitt/issues/new?title=chess%7Cmove%7Cg1f3%7C0&body=Solo+apret%C3%A1+%22Submit+new+issue%22.+No+hace+falta+escribir+nada+m%C3%A1s.) · [h3](https://github.com/sandobaitt/sandobaitt/issues/new?title=chess%7Cmove%7Cg1h3%7C0&body=Solo+apret%C3%A1+%22Submit+new+issue%22.+No+hace+falta+escribir+nada+m%C3%A1s.) |
+| **♙ a2** | [a3](https://github.com/sandobaitt/sandobaitt/issues/new?title=chess%7Cmove%7Ca2a3%7C0&body=Solo+apret%C3%A1+%22Submit+new+issue%22.+No+hace+falta+escribir+nada+m%C3%A1s.) · [a4](https://github.com/sandobaitt/sandobaitt/issues/new?title=chess%7Cmove%7Ca2a4%7C0&body=Solo+apret%C3%A1+%22Submit+new+issue%22.+No+hace+falta+escribir+nada+m%C3%A1s.) |
+| **♙ b2** | [b3](https://github.com/sandobaitt/sandobaitt/issues/new?title=chess%7Cmove%7Cb2b3%7C0&body=Solo+apret%C3%A1+%22Submit+new+issue%22.+No+hace+falta+escribir+nada+m%C3%A1s.) · [b4](https://github.com/sandobaitt/sandobaitt/issues/new?title=chess%7Cmove%7Cb2b4%7C0&body=Solo+apret%C3%A1+%22Submit+new+issue%22.+No+hace+falta+escribir+nada+m%C3%A1s.) |
+| **♙ c2** | [c3](https://github.com/sandobaitt/sandobaitt/issues/new?title=chess%7Cmove%7Cc2c3%7C0&body=Solo+apret%C3%A1+%22Submit+new+issue%22.+No+hace+falta+escribir+nada+m%C3%A1s.) · [c4](https://github.com/sandobaitt/sandobaitt/issues/new?title=chess%7Cmove%7Cc2c4%7C0&body=Solo+apret%C3%A1+%22Submit+new+issue%22.+No+hace+falta+escribir+nada+m%C3%A1s.) |
+| **♙ d2** | [d3](https://github.com/sandobaitt/sandobaitt/issues/new?title=chess%7Cmove%7Cd2d3%7C0&body=Solo+apret%C3%A1+%22Submit+new+issue%22.+No+hace+falta+escribir+nada+m%C3%A1s.) · [d4](https://github.com/sandobaitt/sandobaitt/issues/new?title=chess%7Cmove%7Cd2d4%7C0&body=Solo+apret%C3%A1+%22Submit+new+issue%22.+No+hace+falta+escribir+nada+m%C3%A1s.) |
+| **♙ e2** | [e3](https://github.com/sandobaitt/sandobaitt/issues/new?title=chess%7Cmove%7Ce2e3%7C0&body=Solo+apret%C3%A1+%22Submit+new+issue%22.+No+hace+falta+escribir+nada+m%C3%A1s.) · [e4](https://github.com/sandobaitt/sandobaitt/issues/new?title=chess%7Cmove%7Ce2e4%7C0&body=Solo+apret%C3%A1+%22Submit+new+issue%22.+No+hace+falta+escribir+nada+m%C3%A1s.) |
+| **♙ f2** | [f3](https://github.com/sandobaitt/sandobaitt/issues/new?title=chess%7Cmove%7Cf2f3%7C0&body=Solo+apret%C3%A1+%22Submit+new+issue%22.+No+hace+falta+escribir+nada+m%C3%A1s.) · [f4](https://github.com/sandobaitt/sandobaitt/issues/new?title=chess%7Cmove%7Cf2f4%7C0&body=Solo+apret%C3%A1+%22Submit+new+issue%22.+No+hace+falta+escribir+nada+m%C3%A1s.) |
+| **♙ g2** | [g3](https://github.com/sandobaitt/sandobaitt/issues/new?title=chess%7Cmove%7Cg2g3%7C0&body=Solo+apret%C3%A1+%22Submit+new+issue%22.+No+hace+falta+escribir+nada+m%C3%A1s.) · [g4](https://github.com/sandobaitt/sandobaitt/issues/new?title=chess%7Cmove%7Cg2g4%7C0&body=Solo+apret%C3%A1+%22Submit+new+issue%22.+No+hace+falta+escribir+nada+m%C3%A1s.) |
+| **♙ h2** | [h3](https://github.com/sandobaitt/sandobaitt/issues/new?title=chess%7Cmove%7Ch2h3%7C0&body=Solo+apret%C3%A1+%22Submit+new+issue%22.+No+hace+falta+escribir+nada+m%C3%A1s.) · [h4](https://github.com/sandobaitt/sandobaitt/issues/new?title=chess%7Cmove%7Ch2h4%7C0&body=Solo+apret%C3%A1+%22Submit+new+issue%22.+No+hace+falta+escribir+nada+m%C3%A1s.) |
+
+<details>
+<summary>Historial, ranking y cómo funciona</summary>
+
+**Últimas jugadas**
+
+| Jugada | Quién |
+| --- | --- |
+| — | — |
+
+**Récord total:** visitantes 0 · Stockfish 0 · tablas 0
+
+**Ranking de visitantes** (jugadas totales)
+
+| Jugadas | Mates | Quién |
+| ---: | ---: | --- |
+| — | — | — |
+
+Cada link abre un issue con la jugada ya escrita. Un workflow de GitHub Actions la valida, hace que Stockfish (limitado a ~1500 Elo) responda con negras y actualiza este perfil. Si el tablero tarda en cambiar, es la caché de imágenes de GitHub: recargá en un minuto.
+
+Piezas del tablero: Colin M.L. Burnett (CC BY-SA 3.0), vía `python-chess`.
+
+</details>
+<!-- CHESS:END -->
+
+<img src="assets/divider.svg" alt="" width="100%">
+
 <h2 align="center">Actividad</h2>
 
 <div align="center">

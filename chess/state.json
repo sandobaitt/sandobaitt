@@ -1,0 +1,11 @@
+{
+  "game": 1,
+  "moves": [],
+  "result": null,
+  "stats": {
+    "visitors": 0,
+    "engine": 0,
+    "draws": 0,
+    "players": {}
+  }
+}

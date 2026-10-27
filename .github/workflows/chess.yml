@@ -1,0 +1,67 @@
+name: Chess
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+# Una jugada a la vez: evita carreras sobre chess/state.json
+concurrency:
+  group: chess-game
+  cancel-in-progress: false
+
+jobs:
+  move:
+    name: Play move
+    runs-on: ubuntu-latest
+    if: startsWith(github.event.issue.title, 'chess|')
+    env:
+      GH_TOKEN: ${{ github.token }}
+      ISSUE_NUMBER: ${{ github.event.issue.number }}
+      MESSAGE_FILE: ${{ runner.temp }}/message.md
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          pip install chess==1.11.2
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq stockfish
+
+      - name: Play
+        env:
+          # El titulo es input de un usuario: solo viaja por variables de entorno
+          EVENT_ISSUE_TITLE: ${{ github.event.issue.title }}
+          EVENT_USER_LOGIN: ${{ github.event.issue.user.login }}
+          REPOSITORY: ${{ github.repository }}
+        run: python .github/chess/play.py issue
+
+      - name: Commit board
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md chess/
+          if git diff --cached --quiet; then
+            echo "Sin cambios en el tablero."
+          else
+            git commit -m "chess: move from issue #${ISSUE_NUMBER}"
+            git push
+          fi
+
+      - name: Reply and close issue
+        if: always()
+        run: |
+          if [ ! -s "$MESSAGE_FILE" ]; then
+            echo "Algo falló al procesar la jugada. Probá de nuevo en un rato." > "$MESSAGE_FILE"
+          fi
+          gh issue comment "$ISSUE_NUMBER" --body-file "$MESSAGE_FILE"
+          gh issue close "$ISSUE_NUMBER" --reason completed
