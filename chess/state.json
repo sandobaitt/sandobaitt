@@ -2,6 +2,7 @@
   "game": 1,
   "moves": [],
   "result": null,
+  "say": null,
   "stats": {
     "visitors": 0,
     "engine": 0,

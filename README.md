@@ -108,9 +108,13 @@
 </p>
 
 <!-- CHESS:START -->
+<p align="center"><sub>Stockfish es un motor de ajedrez de código abierto y de los más fuertes que existen: a pleno nivel le gana a cualquier campeón del mundo. Acá lo limité a ~1500 Elo, nivel de club, así que se le puede ganar.</sub></p>
+
 <p align="center"><img src="https://raw.githubusercontent.com/sandobaitt/sandobaitt/main/chess/board.svg?v=1-0" alt="Tablero de ajedrez, partida 1, jugada 0" width="480"></p>
 
 <p align="center"><b>Partida 1.</b> Es tu turno: mové una pieza blanca.</p>
+
+<p align="center"><i>Stockfish: «Te dejo las blancas. Es lo más generoso que voy a hacer en toda la partida.»</i></p>
 
 <p align="center"><sub>Capturaste: — · Stockfish capturó: — · Material: igualado</sub></p>
 

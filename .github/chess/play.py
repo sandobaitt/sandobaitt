@@ -10,6 +10,7 @@ Uso:
 """
 import json
 import os
+import random
 import re
 import shutil
 import sys
@@ -60,6 +61,63 @@ BOARD_COLORS = {
 }
 
 
+ENGINE_BIO = (
+    "Stockfish es un motor de ajedrez de código abierto y de los más fuertes que existen: "
+    "a pleno nivel le gana a cualquier campeón del mundo. Acá lo limité a ~{elo} Elo, "
+    "nivel de club, así que se le puede ganar."
+)
+
+SAYINGS = {
+    "greeting": [
+        "Te dejo las blancas. Es lo más generoso que voy a hacer en toda la partida.",
+        "No tengo nervios ni cafeína. Empezá cuando quieras.",
+        "Calculé tus 20 primeras jugadas posibles. Ninguna me asusta todavía.",
+    ],
+    "check": [
+        "Jaque. No es un insulto, es una posición.",
+        "Tu rey se ve incómodo. Fue idea mía.",
+        "Jaque. Pensalo tranquilo, tengo todo el tiempo del mundo.",
+    ],
+    "mate_soon": [
+        "Veo mate en {n}. Disfrutá las jugadas que quedan.",
+        "Mate en {n}. No es una amenaza, es aritmética.",
+    ],
+    "capture": [
+        "Gracias por la pieza. La guardo con cariño.",
+        "Eso estaba flojo. Lo tomé sin culpa.",
+        "Capturé. Anotado en mi lista de favores.",
+    ],
+    "ahead": [
+        "La evaluación dice que voy ganando. No es mi opinión, es matemática.",
+        "Voy arriba. Acordate: yo no me canso.",
+    ],
+    "behind": [
+        "Hmm. Esta posición no me gusta. Qué bien jugás, qué fastidio.",
+        "Estás mejor. Estoy recalculando mi orgullo.",
+        "Si me ganás, lo anoto en el ranking. Con rencor.",
+    ],
+    "quiet": [
+        "Movimiento sutil. En cinco jugadas vas a entender por qué.",
+        "No pasa nada... todavía.",
+        "Fui por lo seguro: los motores no improvisan.",
+        "Jugada tranquila, de las que nunca salen en los videos.",
+        "Pensé medio segundo. Me sobró la mitad.",
+    ],
+    "engine_wins": [
+        "Jaque mate. Nada personal: ganó la búsqueda en profundidad.",
+        "Mate. Si querés revancha, hay un link abajo.",
+    ],
+    "engine_loses": [
+        "Me ganaste. Perdí, y no me gusta cómo se siente.",
+        "Jaque mate para mí. Anoto el nombre. Vuelvo peor.",
+    ],
+    "draw": [
+        "Tablas. Ninguno gana, así que técnicamente nadie pierde.",
+        "Tablas. Sabe igual que no haber jugado.",
+    ],
+}
+
+
 class MoveError(Exception):
     """Jugada rechazada: el mensaje se le muestra al visitante en el issue."""
 
@@ -71,7 +129,13 @@ def es_san(san):
 
 def new_state(previous=None):
     stats = previous["stats"] if previous else {"visitors": 0, "engine": 0, "draws": 0, "players": {}}
-    return {"game": previous["game"] + 1 if previous else 1, "moves": [], "result": None, "stats": stats}
+    return {
+        "game": previous["game"] + 1 if previous else 1,
+        "moves": [],
+        "result": None,
+        "say": None,
+        "stats": stats,
+    }
 
 
 def load_state():
@@ -96,7 +160,32 @@ def engine_move(board):
     path = os.environ.get("STOCKFISH_PATH") or shutil.which("stockfish") or "/usr/games/stockfish"
     with chess.engine.SimpleEngine.popen_uci(path) as engine:
         engine.configure({"UCI_LimitStrength": True, "UCI_Elo": ENGINE_ELO})
-        return engine.play(board, chess.engine.Limit(time=ENGINE_SECONDS)).move
+        played = engine.play(board, chess.engine.Limit(time=ENGINE_SECONDS), info=chess.engine.INFO_SCORE)
+        score = played.info.get("score")
+        return played.move, score.pov(chess.BLACK) if score else None
+
+
+def pick_say(state, kind, **fmt):
+    options = [text.format(**fmt) for text in SAYINGS[kind]]
+    options = [text for text in options if text != state.get("say")] or options
+    return random.choice(options)
+
+
+def engine_say(state, result, gave_check, was_capture, score):
+    if result:
+        return pick_say(state, "engine_wins" if result["winner"] == "engine" else "draw")
+    if score is not None and score.is_mate() and score.mate() > 0:
+        return pick_say(state, "mate_soon", n=score.mate())
+    if gave_check:
+        return pick_say(state, "check")
+    if was_capture:
+        return pick_say(state, "capture")
+    if score is not None and not score.is_mate():
+        if score.score() >= 300:
+            return pick_say(state, "ahead")
+        if score.score() <= -300:
+            return pick_say(state, "behind")
+    return pick_say(state, "quiet")
 
 
 def push(state, board, move, by):
@@ -151,11 +240,15 @@ def handle_move(state, user, uci, ply):
     message = f"Jugaste **{es_san(san)}**."
 
     result = close_if_over(state, board)
-    if not result:
-        reply = engine_move(board)
+    if result:
+        state["say"] = pick_say(state, "engine_loses")
+    else:
+        reply, score = engine_move(board)
+        was_capture = board.is_capture(reply)
         reply_san = push(state, board, reply, ENGINE_NAME)
         message += f" {ENGINE_NAME} respondió **{es_san(reply_san)}**."
         result = close_if_over(state, board)
+        state["say"] = engine_say(state, result, board.is_check(), was_capture, score)
     if result:
         message += " " + describe_result(result)
     return board, message
@@ -169,6 +262,7 @@ def handle_new(state, user, ply):
     fresh = new_state(state)
     state.clear()
     state.update(fresh)
+    state["say"] = pick_say(state, "greeting")
     return build_board(state), "Partida nueva. Jugás con blancas."
 
 
@@ -245,6 +339,8 @@ def render_block(state, board):
     image = f"https://raw.githubusercontent.com/{REPO}/{BRANCH}/chess/board.svg?v={state['game']}-{ply}"
     stats = state["stats"]
     parts = [
+        f'<p align="center"><sub>{ENGINE_BIO.format(elo=ENGINE_ELO)}</sub></p>',
+        "",
         f'<p align="center"><img src="{image}" alt="Tablero de ajedrez, partida {state["game"]}, jugada {ply}" width="480"></p>',
         "",
     ]
@@ -259,6 +355,9 @@ def render_block(state, board):
         last = state["moves"][-1]
         status += f" Última jugada: {es_san(last['san'])} ({last['by']})."
     parts += [f'<p align="center">{status}</p>', ""]
+
+    say = state.get("say") or SAYINGS["greeting"][0]
+    parts += [f'<p align="center"><i>{ENGINE_NAME}: «{say}»</i></p>', ""]
 
     balance = material_balance(board)
     material = f"{balance:+d}" if balance else "igualado"
@@ -344,7 +443,7 @@ def run_issue():
         write_message(f"No se pudo aplicar la jugada: {error}")
         return
     refresh(state)
-    write_message(message + " El tablero del perfil ya está actualizado.")
+    write_message(f"{message} El tablero del perfil ya está actualizado.\n\n> **{ENGINE_NAME}:** {state['say']}")
 
 
 def main():
