@@ -2,8 +2,8 @@
 <title id="t">Lautaro Sandoval (@sandobaitt)</title>
 <desc id="d">Estudiante avanzado de Ingeniería en Sistemas de Información en la UTN FRRe. Sitios web, ciberseguridad y programación competitiva.</desc>
 <defs>
-<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#14203d"/></linearGradient>
-<linearGradient id="nm" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#5dc9f2"/></linearGradient>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f7efe3"/><stop offset="1" stop-color="#eadcc4"/></linearGradient>
+<linearGradient id="nm" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2b1d14"/><stop offset="1" stop-color="#8a5a34"/></linearGradient>
 <clipPath id="card"><rect width="900" height="290" rx="16"/></clipPath>
 <style>
 .pac{animation:move 14s linear infinite}
@@ -59,64 +59,64 @@
 <g clip-path="url(#card)">
 <rect width="900" height="290" fill="url(#bg)"/>
 <!-- laberinto decorativo -->
-<g fill="none" stroke="#2a3f7a" stroke-width="2.5" opacity=".55" stroke-linecap="round" stroke-linejoin="round">
+<g fill="none" stroke="#c9a97c" stroke-width="2.5" opacity=".55" stroke-linecap="round" stroke-linejoin="round">
 <path d="M690 -4v34a12 12 0 0 0 12 12h60a12 12 0 0 1 12 12v22"/>
 <path d="M822 -4v20M822 62v8a12 12 0 0 0 12 12h80"/>
 <path d="M730 100h46a10 10 0 0 1 10 10v28"/>
 <path d="M840 118h70"/>
 </g>
-<rect width="900" height="290" rx="16" fill="none" stroke="#1d2a4d" stroke-width="2"/>
+<rect width="900" height="290" rx="16" fill="none" stroke="#cdb48f" stroke-width="2"/>
 
-<text x="48" y="52" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#8b98b5" letter-spacing=".5">sandobaitt@github:~$ <tspan fill="#ffd83d">whoami</tspan></text>
+<text x="48" y="52" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" fill="#7a5f4a" letter-spacing=".5">sandobaitt@github:~$ <tspan fill="#a8672c">whoami</tspan></text>
 
 <text x="46" y="118" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="56" font-weight="800" fill="url(#nm)" letter-spacing="-1">Lautaro Sandoval</text>
-<text x="48" y="154" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" fill="#5dc9f2">Estudiante avanzado de Ingeniería en Sistemas de Información · UTN FRRe</text>
+<text x="48" y="154" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" fill="#6b4a33">Estudiante avanzado de Ingeniería en Sistemas de Información · UTN FRRe</text>
 
-<text x="48" y="196" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="19" font-weight="700" fill="#ffd83d">&gt;</text>
-<text class="p0" x="72" y="196" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="19" fill="#e6edf3">Sitios web para instituciones de la ciudad</text>
-<text class="p1" x="72" y="196" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="19" fill="#e6edf3">CTFs y ciberseguridad</text>
-<text class="p2" x="72" y="196" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="19" fill="#e6edf3">Programación competitiva</text>
-<text class="p3" x="72" y="196" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="19" fill="#e6edf3">De objetos en Pharo a assembler 8086</text>
+<text x="48" y="196" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="19" font-weight="700" fill="#a8672c">&gt;</text>
+<text class="p0" x="72" y="196" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="19" fill="#2b1d14">Sitios web para instituciones de la ciudad</text>
+<text class="p1" x="72" y="196" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="19" fill="#2b1d14">CTFs y ciberseguridad</text>
+<text class="p2" x="72" y="196" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="19" fill="#2b1d14">Programación competitiva</text>
+<text class="p3" x="72" y="196" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="19" fill="#2b1d14">De objetos en Pharo a assembler 8086</text>
 
-<text x="48" y="226" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" fill="#8b98b5">Resistencia, Chaco · Argentina</text>
+<text x="48" y="226" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" fill="#7a5f4a">Resistencia, Chaco · Argentina</text>
 
 <g transform="translate(0 252)">
-<circle class="d0" cx="48" cy="0" r="3.2" fill="#ffd83d"/>
-<circle class="d1" cx="72" cy="0" r="3.2" fill="#ffd83d"/>
-<circle class="d2" cx="96" cy="0" r="3.2" fill="#ffd83d"/>
-<circle class="d3" cx="120" cy="0" r="3.2" fill="#ffd83d"/>
-<circle class="d4" cx="144" cy="0" r="3.2" fill="#ffd83d"/>
-<circle class="d5" cx="168" cy="0" r="6" fill="#ffd83d"/>
-<circle class="d6" cx="192" cy="0" r="3.2" fill="#ffd83d"/>
-<circle class="d7" cx="216" cy="0" r="3.2" fill="#ffd83d"/>
-<circle class="d8" cx="240" cy="0" r="3.2" fill="#ffd83d"/>
-<circle class="d9" cx="264" cy="0" r="3.2" fill="#ffd83d"/>
-<circle class="d10" cx="288" cy="0" r="3.2" fill="#ffd83d"/>
-<circle class="d11" cx="312" cy="0" r="3.2" fill="#ffd83d"/>
-<circle class="d12" cx="336" cy="0" r="3.2" fill="#ffd83d"/>
-<circle class="d13" cx="360" cy="0" r="3.2" fill="#ffd83d"/>
-<circle class="d14" cx="384" cy="0" r="3.2" fill="#ffd83d"/>
-<circle class="d15" cx="408" cy="0" r="3.2" fill="#ffd83d"/>
-<circle class="d16" cx="432" cy="0" r="6" fill="#ffd83d"/>
-<circle class="d17" cx="456" cy="0" r="3.2" fill="#ffd83d"/>
-<circle class="d18" cx="480" cy="0" r="3.2" fill="#ffd83d"/>
-<circle class="d19" cx="504" cy="0" r="3.2" fill="#ffd83d"/>
-<circle class="d20" cx="528" cy="0" r="3.2" fill="#ffd83d"/>
-<circle class="d21" cx="552" cy="0" r="3.2" fill="#ffd83d"/>
-<circle class="d22" cx="576" cy="0" r="3.2" fill="#ffd83d"/>
-<circle class="d23" cx="600" cy="0" r="3.2" fill="#ffd83d"/>
-<circle class="d24" cx="624" cy="0" r="3.2" fill="#ffd83d"/>
-<circle class="d25" cx="648" cy="0" r="3.2" fill="#ffd83d"/>
-<circle class="d26" cx="672" cy="0" r="3.2" fill="#ffd83d"/>
-<circle class="d27" cx="696" cy="0" r="6" fill="#ffd83d"/>
-<circle class="d28" cx="720" cy="0" r="3.2" fill="#ffd83d"/>
-<circle class="d29" cx="744" cy="0" r="3.2" fill="#ffd83d"/>
-<circle class="d30" cx="768" cy="0" r="3.2" fill="#ffd83d"/>
-<circle class="d31" cx="792" cy="0" r="3.2" fill="#ffd83d"/>
-<circle class="d32" cx="816" cy="0" r="3.2" fill="#ffd83d"/>
-<circle class="d33" cx="840" cy="0" r="3.2" fill="#ffd83d"/>
-<g><g class="ghost"><path d="M-14 15V-1A14 14 0 0 1 14 -1V15L9.3 10.5 4.7 15 0 10.5-4.7 15-9.3 10.5Z" fill="#ff5470"/><circle cx="-5" cy="-2" r="4.2" fill="#fff"/><circle cx="5.5" cy="-2" r="4.2" fill="#fff"/><circle cx="-3.6" cy="-1.6" r="2" fill="#1c3fbf"/><circle cx="6.9" cy="-1.6" r="2" fill="#1c3fbf"/></g></g>
-<g class="pac"><path class="jawU" d="M-15 0A15 15 0 0 1 15 0Z" fill="#ffd83d"/><path class="jawL" d="M-15 0A15 15 0 0 0 15 0Z" fill="#ffd83d"/><circle cx="1" cy="-7" r="2.2" fill="#0d1117"/></g>
+<circle class="d0" cx="48" cy="0" r="3.2" fill="#a8672c"/>
+<circle class="d1" cx="72" cy="0" r="3.2" fill="#a8672c"/>
+<circle class="d2" cx="96" cy="0" r="3.2" fill="#a8672c"/>
+<circle class="d3" cx="120" cy="0" r="3.2" fill="#a8672c"/>
+<circle class="d4" cx="144" cy="0" r="3.2" fill="#a8672c"/>
+<circle class="d5" cx="168" cy="0" r="6" fill="#a8672c"/>
+<circle class="d6" cx="192" cy="0" r="3.2" fill="#a8672c"/>
+<circle class="d7" cx="216" cy="0" r="3.2" fill="#a8672c"/>
+<circle class="d8" cx="240" cy="0" r="3.2" fill="#a8672c"/>
+<circle class="d9" cx="264" cy="0" r="3.2" fill="#a8672c"/>
+<circle class="d10" cx="288" cy="0" r="3.2" fill="#a8672c"/>
+<circle class="d11" cx="312" cy="0" r="3.2" fill="#a8672c"/>
+<circle class="d12" cx="336" cy="0" r="3.2" fill="#a8672c"/>
+<circle class="d13" cx="360" cy="0" r="3.2" fill="#a8672c"/>
+<circle class="d14" cx="384" cy="0" r="3.2" fill="#a8672c"/>
+<circle class="d15" cx="408" cy="0" r="3.2" fill="#a8672c"/>
+<circle class="d16" cx="432" cy="0" r="6" fill="#a8672c"/>
+<circle class="d17" cx="456" cy="0" r="3.2" fill="#a8672c"/>
+<circle class="d18" cx="480" cy="0" r="3.2" fill="#a8672c"/>
+<circle class="d19" cx="504" cy="0" r="3.2" fill="#a8672c"/>
+<circle class="d20" cx="528" cy="0" r="3.2" fill="#a8672c"/>
+<circle class="d21" cx="552" cy="0" r="3.2" fill="#a8672c"/>
+<circle class="d22" cx="576" cy="0" r="3.2" fill="#a8672c"/>
+<circle class="d23" cx="600" cy="0" r="3.2" fill="#a8672c"/>
+<circle class="d24" cx="624" cy="0" r="3.2" fill="#a8672c"/>
+<circle class="d25" cx="648" cy="0" r="3.2" fill="#a8672c"/>
+<circle class="d26" cx="672" cy="0" r="3.2" fill="#a8672c"/>
+<circle class="d27" cx="696" cy="0" r="6" fill="#a8672c"/>
+<circle class="d28" cx="720" cy="0" r="3.2" fill="#a8672c"/>
+<circle class="d29" cx="744" cy="0" r="3.2" fill="#a8672c"/>
+<circle class="d30" cx="768" cy="0" r="3.2" fill="#a8672c"/>
+<circle class="d31" cx="792" cy="0" r="3.2" fill="#a8672c"/>
+<circle class="d32" cx="816" cy="0" r="3.2" fill="#a8672c"/>
+<circle class="d33" cx="840" cy="0" r="3.2" fill="#a8672c"/>
+<g><g class="ghost"><path d="M-14 15V-1A14 14 0 0 1 14 -1V15L9.3 10.5 4.7 15 0 10.5-4.7 15-9.3 10.5Z" fill="#b5523b"/><circle cx="-5" cy="-2" r="4.2" fill="#fff"/><circle cx="5.5" cy="-2" r="4.2" fill="#fff"/><circle cx="-3.6" cy="-1.6" r="2" fill="#4a2c1a"/><circle cx="6.9" cy="-1.6" r="2" fill="#4a2c1a"/></g></g>
+<g class="pac"><path class="jawU" d="M-15 0A15 15 0 0 1 15 0Z" fill="#a8672c"/><path class="jawL" d="M-15 0A15 15 0 0 0 15 0Z" fill="#a8672c"/><circle cx="1" cy="-7" r="2.2" fill="#2b1d14"/></g>
 </g>
 </g>
 </svg>

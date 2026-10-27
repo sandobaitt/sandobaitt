@@ -3,10 +3,10 @@
 </div>
 
 <p align="center">
-  <a href="https://sando-portafolio.vercel.app"><img src="https://img.shields.io/badge/Portafolio-ffd83d?style=for-the-badge&logo=vercel&logoColor=black" alt="Portafolio" /></a>
-  <a href="https://www.linkedin.com/in/lautarosandoval"><img src="https://img.shields.io/badge/LinkedIn-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:lautaroemanuelsandoval@gmail.com"><img src="https://img.shields.io/badge/Gmail-d14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" /></a>
-  <a href="https://www.instagram.com/lautisando_"><img src="https://img.shields.io/badge/Instagram-e4405f?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
+  <a href="https://sando-portafolio.vercel.app"><img src="https://img.shields.io/badge/Portafolio-c9a26b?style=for-the-badge&logo=vercel&logoColor=2b1d14" alt="Portafolio" /></a>
+  <a href="https://www.linkedin.com/in/lautarosandoval"><img src="https://img.shields.io/badge/LinkedIn-5a3a28?style=for-the-badge&logo=linkedin&logoColor=f7efe3" alt="LinkedIn" /></a>
+  <a href="mailto:lautaroemanuelsandoval@gmail.com"><img src="https://img.shields.io/badge/Gmail-7a4a32?style=for-the-badge&logo=gmail&logoColor=f7efe3" alt="Gmail" /></a>
+  <a href="https://www.instagram.com/lautisando_"><img src="https://img.shields.io/badge/Instagram-a8672c?style=for-the-badge&logo=instagram&logoColor=f7efe3" alt="Instagram" /></a>
 </p>
 
 <p align="center">
@@ -70,9 +70,9 @@
 
 <p align="center">
   Resuelvo CTFs y participo en eventos del tema.<br><br>
-  <a href="https://www.hackthebox.com"><img src="https://img.shields.io/badge/Hack_The_Box-9fef00?style=for-the-badge&logo=hackthebox&logoColor=black" alt="Hack The Box" /></a>
-  <a href="https://picoctf.org"><img src="https://img.shields.io/badge/picoCTF-4b5d80?style=for-the-badge" alt="picoCTF" /></a>
-  <a href="https://www.softwareseguro.com.ar"><img src="https://img.shields.io/badge/HackLab-Software_Seguro-2b6cb0?style=for-the-badge" alt="HackLab de Software Seguro" /></a>
+  <a href="https://www.hackthebox.com"><img src="https://img.shields.io/badge/Hack_The_Box-5a3a28?style=for-the-badge&logo=hackthebox&logoColor=f7efe3" alt="Hack The Box" /></a>
+  <a href="https://picoctf.org"><img src="https://img.shields.io/badge/picoCTF-7a4a32?style=for-the-badge" alt="picoCTF" /></a>
+  <a href="https://www.softwareseguro.com.ar"><img src="https://img.shields.io/badge/HackLab-Software_Seguro-a8672c?style=for-the-badge" alt="HackLab de Software Seguro" /></a>
 </p>
 
 <h2 align="center">Sobre mí</h2>
@@ -110,5 +110,5 @@
     <img alt="Gráfico de contribuciones de GitHub como juego de Pac-Man" src="https://raw.githubusercontent.com/sandobaitt/sandobaitt/output/pacman-contribution-graph.svg">
   </picture>
   <br><br>
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=sandobaitt&layout=compact&card_width=420&langs_count=6&custom_title=Lenguajes%20m%C3%A1s%20usados&bg_color=0d1117&border_color=1d2a4d&title_color=ffd83d&text_color=e6edf3&border_radius=12" alt="Lenguajes más usados en mis repositorios" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=sandobaitt&layout=compact&card_width=420&langs_count=6&custom_title=Lenguajes%20m%C3%A1s%20usados&bg_color=f7efe3&border_color=cdb48f&title_color=5a3a28&text_color=2b1d14&border_radius=12" alt="Lenguajes más usados en mis repositorios" />
 </div>
